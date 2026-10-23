@@ -42,7 +42,7 @@ Abre `http://localhost:5173`.
 1. Crea un repositorio llamado `nubestock` y sube este proyecto a la rama `main`.
 2. En *Settings → Secrets and variables → Actions* crea los secretos `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY`.
 3. En *Settings → Pages* elige **GitHub Actions** como fuente.
-4. Copia `docs/deploy-workflow.yml` a `.github/workflows/deploy.yml` (requiere permiso `workflow` en GitHub). Cada push a `main` ejecuta lint, pruebas y build, y publica en `https://TU-USUARIO.github.io/nubestock/` (`.github/workflows/deploy.yml`).
+4. Cada push a `main` ejecuta lint, pruebas y build, y publica en `https://TU-USUARIO.github.io/nubestock/` (`.github/workflows/deploy.yml`).
 
 ## Comandos
 
